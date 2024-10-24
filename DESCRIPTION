@@ -1,0 +1,12 @@
+Package: RcppEigenAutodiff
+Type: Package
+Title: Proof-of-concept of combining the Autodiff libraries with the RcppEigen package and building a basic solver.
+Version: 0.1
+Date: 2024-10-24
+Author: Finlay Scott
+Maintainer: Finlay Scott <drfinlayscott@gmail.com>
+Description: A proof-of-concept package that combines the RcppEigen package (https://github.com/RcppCore/RcppEigen) with the Autodiff automatic differentiation C++ library (https://autodiff.github.io/).
+       A simple Newton-Raphson minimiser is built using AD as an example.
+License: MIT | file LICENSE
+Imports: Rcpp (>= 1.0.13)
+LinkingTo: Rcpp, RcppEigen
