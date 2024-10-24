@@ -2,7 +2,7 @@
 
 **RcppEigenAutodiff** is a proof-of-concept package that combines the [RcppEigen](https://github.com/RcppCore/RcppEigen) package with the [AutoDiff](https://autodiff.github.io/) C++ library for automatic differentiation.
 
-This is not the first time these two have been combined (e.g. see [Rcppautodiff](https://github.com/sn248/Rcppautodiff), but I wanted to try it myself as my already limited Rcpp / C++ skills were getting rusty and it seemed like a neat project to get back in the game.
+This is not the first time these two have been combined (e.g. see [Rcppautodiff](https://github.com/sn248/Rcppautodiff)), but I wanted to try it myself as my already limited Rcpp / C++ skills were getting rusty and it seemed like a neat project to get back in the game.
 
 # Example: simple Newton-Raphson solver
 
